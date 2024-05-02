@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo de la página */
+}
+
+.title {
+    text-align: left;
+    font-size: 2em; /* Tamaño del título aumentado */
+    margin-top: 10px; /* Margen superior reducido */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Establece la altura al 80% del viewport */
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 120px); /* Cuatro columnas de 120px cada una */
+    grid-gap: 20px; /* Espacio entre las cartas */
+}
+
+/* Resto de estilos... */
+
+.menu {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61; /* Color brillante para los botones */
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #ff4136; /* Cambio de color al pasar el cursor */
+}
