@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a9b4f;
+}
+
+.image-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+
+.regresar-button {
+    position: fixed; /* Posición fija para mantener el botón en la ventana del navegador */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    display: block;
+    width: 100px; /* Ancho más pequeño */
+    padding: 8px 16px; /* Menos relleno */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em; /* Tamaño de fuente ligeramente más pequeño */
+    border: 2px solid #000; /* Añadir un borde negro */
+    cursor: pointer;
+    transition: background 0.3s ease; /* Transición del fondo */
+    background: linear-gradient(135deg, #ff69b4, #366fff); /* Degradado entre rosa y azul */
+}
+
+.regresar-button:hover {
+    background-color: #ff1493; /* Cambiar el color de fondo al pasar el ratón */
+}
